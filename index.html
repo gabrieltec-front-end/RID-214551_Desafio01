@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <div id="conteudo">
+                <div class="header-conteudo">
+                    <h1>
+                        Tradição em projetos de arquitetura
+                    </h1>
+
+                </div>
+                <div class="header-conteudo">
+                    <p>Arquitetura residencial e comercial</p>
+                    
+                </div>
+            </div>
+        </div>
+        <div id="corpo">
+            <div id="info">
+                <div class="info-conteudo seta" onclick="setaEsquerda()" > <img src="seta_esquerda.svg"></div>
+                <div id="um" class="info-conteudo">
+                    <strong><h1>850</h1></strong>
+                    <p>empreendimentos construidos</p>
+                </div>
+                <div id="dois" class="info-conteudo">
+                    <strong><h1>40</h1></strong>
+                    <p>anos de mercado e experiência</p>
+                </div>
+                <div id="tres" class="info-conteudo">
+                    <strong><h1>2,000,000</h1></strong>
+                    <p>m² em projetos construidos</p>
+                </div>
+                <div id="quatro" class="info-conteudo">
+                    <strong><h1>Arquitetura</h1></strong>
+                    <p>conserva e enriquece as nossa experiência</p>
+                </div>
+                <div id="cinco" class="info-conteudo">
+                    <strong><h1>Design de interiores</h1></strong>
+                    <p>atendendemos em todos os mercados</p>
+                </div>
+                <div id="seis" class="info-conteudo">
+                    <strong><h1>Planejamento de Arte</h1></strong>
+                    <p>De acordo com o sonho do cliente</p>
+                </div>
+
+                <div class="info-conteudo seta" onclick="setaDireita()"> <img src="seta_direita.svg"></div>
+            </div>
+            <div id="info2">
+
+
+
+                
+            </div>
+            <div id=foto-e-conteudo>
+                <div id="conteudo2">
+                    <h1>Arquitetos com História e Experiência</h1>
+                    <p>Arquitetos com História e Experiência.
+                        Nós realizamos desde 2002 projetos e gerenciamento de obras. 
+                        Com mais de 800 projetos e 2.000.000 de m² construídos,
+                        tendo como principal proposta transformar em realidade os sonhos de seus clientes,
+                         criando projetos personalizados,
+                         unindo a tradição e a modernidade em nossos projetos.</p>
+
+                </div>
+                <div id="foto">
+                    <img src="arte.png">
+                </div>
+            </div>
+        </div>
+        <div id="formulario">
+            <h2>Conheça mais sobre nossos serviços</h2>
+            <form action="https://api.sheetmonkey.io/form/rBwHnqAwBFU9UXtUiAiawb" method="post">
+                <input id="nome" type="text" name="nome" placeholder="Nome" required>
+                <br>
+                <input id="email" type="email" name="email" placeholder="Email">
+                <br>
+                <button id="botao" type="submit">Fale Conosco</button>
+                <br>
+            </form>
+        </div>
+
+    </div>
+
+    <script>
+        var um=document.getElementById("um")
+        var dois=document.getElementById("dois")
+        var tres=document.getElementById("tres")
+        var quatro=document.getElementById("quatro")
+        var cinco=document.getElementById("cinco")
+        var seis=document.getElementById("seis")
+        function setaDireita(){
+            um.style.display="none"
+            quatro.style.display="block"
+            dois.style.display="none"
+            cinco.style.display="block"
+            tres.style.display="none"
+            seis.style.display="block"
+            
+
+
+        }
+        function setaEsquerda(){
+            um.style.display="block"
+            quatro.style.display="none"
+            dois.style.display="block"
+            cinco.style.display="none"
+            tres.style.display="block"
+            seis.style.display="none"
+            
+
+
+        }
+
+
+    </script>
+    
+</body>

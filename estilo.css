@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#header{
+    height: 250px;
+    background-color: #303030;
+}
+
+#conteudo{
+    margin-left: 80px;
+    font-size: 1.3em;
+   
+    padding-top: 60px;
+
+}
+.header-conteudo{
+    color: #ffff;
+    margin-bottom: 10px;
+}
+
+#info{
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #F9F9F9;
+  
+
+    
+}
+#foto-e-conteudo{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+.info-conteudo{
+   margin-top: 40px;
+}
+
+.seta{
+    margin-top: 55px;
+}
+.seta:hover{
+    transform: translateY(-8px);
+    cursor: pointer;
+    transition: 0.5s;
+}
+#quatro,#cinco,#seis{
+    display:none;
+
+}
+
+
+
+
+#conteudo2{
+    width: 47%;
+    
+    margin-top: 110px;
+}
+
+#conteudo2 h1{
+    margin-bottom: 30px;
+}
+#conteudo2 p{
+    font-size: 1.2em;
+}
+
+#foto{
+    width: 47%;
+  
+   
+}
+#foto img{
+    width: 100%;
+    height: 500px;
+
+    border-radius: 20px;
+}
+
+#formulario{
+    background-color: #303030;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#formulario h2{
+    margin-bottom: 20px;
+    color: #ffff;
+   
+    
+}
+#formulario input{
+    margin-bottom: 40px;
+    width: 20%;
+    height: 30px;
+    border-radius: 10px;
+    
+
+}
+input::placeholder{
+    padding-left: 10px;
+}
+
+button{
+    padding: 10px 25px;
+    color: #ffff;
+    background-color: #C07212;
+    border: none;
+    border-radius: 8px;
+}
+button:hover{
+    box-shadow: 0px 10px 15px black;
+    transform: translateY(-7px);
+    transition: 0.5s;
+    cursor: pointer;
+}
